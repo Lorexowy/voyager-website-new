@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { FaGift, FaBriefcase, FaPen, FaPalette } from 'react-icons/fa';
+import { FaGift, FaPen, FaPalette, FaBriefcase } from 'react-icons/fa';
 
 const PageContainer = styled.div`
   max-width: ${props => props.theme.container.maxWidth};
@@ -194,6 +194,16 @@ const Personalization = () => {
             <OptionTitle>Niestandardowe wymiary</OptionTitle>
             <OptionDescription>
               Dostosowanie rozmiarów i proporcji produktu do specyficznych wymagań i zastosowań.
+            </OptionDescription>
+          </OptionCard>
+          
+          <OptionCard>
+            <OptionIcon>
+              <FaBriefcase />
+            </OptionIcon>
+            <OptionTitle>Oferta dla firm</OptionTitle>
+            <OptionDescription>
+              Specjalne rozwiązania dla przedsiębiorstw, w tym możliwość umieszczenia logotypu czy wykonania serii produktów.
             </OptionDescription>
           </OptionCard>
         </OptionsGrid>
