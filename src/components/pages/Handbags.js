@@ -40,7 +40,7 @@ const Handbags = () => {
       
       <ProductsGrid 
         title="Nasze torebki" 
-        category="torebki" 
+        category="Torebki"
       />
     </PageContainer>
   );
